@@ -74,7 +74,9 @@ Thumbnail image
 + item 3
 
 `- item 1, or`
+
 `* item 2, or`
+
 `+ item 3`
 
 ### Todo:
@@ -82,9 +84,11 @@ Thumbnail image
 1. second
 1. third
 
-`1. first`
-`1. second`
-`1. third`
+```txt
+1. first
+1. second
+1. third
+```
 
 ## Line Breaks, Horizontal Rules and BlockQuotes
 
