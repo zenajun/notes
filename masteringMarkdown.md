@@ -43,18 +43,18 @@ Syntax: `![alt text](link "title")`
 ![Wow great pick!](http://unsplash.it/500/500?random "cool pic")
 
 
+Using the link
 `![Cute Pup][pup]`<br>
 `[pup]: http://unsplash.it/500/500?image=1012`<br>
 becomes:
 
-Using the link
-
 ![Cute Pup][pup]
+
 [pup]: http://unsplash.it/500/500?image=1012
 
 Thumbnail image
 
-`[![]( http://unsplash.it/50/50?image=1012)]( http://unsplash.it/500/500?image=1012)` becomes
+`[![]( http://unsplash.it/50/50?image=1012)]( http://unsplash.it/500/500?image=1012)` becomes:<br>
 [![]( http://unsplash.it/50/50?image=1012)]( http://unsplash.it/500/500?image=1012)
 
 
