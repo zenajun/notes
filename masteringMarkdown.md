@@ -53,42 +53,34 @@ Syntax: `![alt text](link "title")` or `[<img src="">](LINK)`
 
 ### Unordered list
 
-Syntax: `-`, `+` or `*`
+Unordered List: `- `, `+ ` or `* `<br>
+Ordered List: `1. `<br>
+Nesting: `2 spaces` or `tab`
+
 
 ```
 * item 1
 * item 2
 * item 3
-```
-becomes:
-
-* item 1
-* item 2
-* item 3
-
-
-### Ordered List
-
-Sytax: `1.`
-```md
-1. first
-1. second
-1. third
-```
 
 1. first
 1. second
 1. third
 
-### Nesting
-
-Use spaces or tabs
-```
 * One
 * Two
- * i
- * ii
+  * i
+  * ii
+
 ```
+
+* item 1
+* item 2
+* item 3
+
+1. first
+1. second
+1. third
 
 * One
 * Two
