@@ -13,8 +13,8 @@
 
 |Text Decoration|Code|
 |:--------------|:---|
+|*Italic*| `_Italic_` or `*Italic*`|
 |**Bold**|`**Bold**`|
-|_Italic_| `_Italic_` or `*Italic*`|
 |***Bold and Italic***|`***Bold and Italic***`|
 |~~Strikethrough~~|`~~Strikethrough~~`|
 
@@ -40,20 +40,20 @@
 ## Images
 Syntax: `![alt text](link "title")`
 
-`![Wow great pick!](http://unsplash.it/500/500?random "cool pic")` becomes:
+`![Wow great pick!](http://unsplash.it/250/250?random "cool pic")` becomes:
 
-![Wow great pick!](http://unsplash.it/500/500?random "cool pic")
+![Wow great pick!](http://unsplash.it/250/250?random "cool pic")
 
 
 ### Using the link
 
 `![Cute Pup][pup]`<br>
-`[pup]: http://unsplash.it/500/500?image=1012`<br>
+`[pup]: http://unsplash.it/250/250?image=1012`<br>
 becomes:
 
 ![Cute Pup][pup]
 
-[pup]: http://unsplash.it/500/500?image=1012
+[pup]: http://unsplash.it/250/250?image=1012
 
 ### Thumbnail image
 
@@ -72,15 +72,16 @@ You can also use `<img>`
 Syntax: `-`, `+` or `*`
 
 ```
-- item 1
+* item 1
 * item 2
-+ item 3
+* item 3
 ```
 becomes:
 
-- item 1
+* item 1
 * item 2
-+ item 3
+* item 3
+
 
 ### Ordered List
 
@@ -94,6 +95,21 @@ Sytax: `1.`
 1. first
 1. second
 1. third
+
+### Nesting
+
+Use spaces or tabs
+```
+* One
+* Two
+ * i
+ * ii
+```
+
+* One
+* Two
+  * i
+  * ii
 
 ## Line Breaks, Horizontal Rules and Block Quotes
 
