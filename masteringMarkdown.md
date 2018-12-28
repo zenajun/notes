@@ -89,36 +89,27 @@ Nesting: `2 spaces` or `tab`
 
 ## Line Breaks, Horizontal Rules and Block Quotes
 
-### Line Breaks
+Line break: `<br>` or `\`<br>
+Horizontal Rules: `---` or `___`<br>
+Block Quotes: `>`
 
-Syntax: `<br>` or `add a space`
-
-```md
-Zena is cool.<br>
-Hello
 ```
-Zena is cool.<br>
-Hello
-
-### Horizontal rules 
-
-Syntax: `___` or `---`
+The first sentence.<br>
+The second line!
 
 ---
 
-### Block Quotes
-
-Syntax: `>`
-
-```md
-> You miss 100% of the shots you don't take. - Wayne Gretzky
->
-> Another line here
+>The quick brown fox jumped over the lazy dogs<br>
+> **Mavis Beacon** 
 ```
 
-> You miss 100% of the shots you don't take. - Wayne Gretzky
->
->Another line here
+The first sentence.<br>
+The second line!
+
+___
+
+>The quick brown fox jumped over the lazy dogs<br>
+> **Mavis Beacon** 
 
 
 
