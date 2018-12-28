@@ -4,6 +4,7 @@
 * [Headings](#headings)
 * [Links](#links)
 * [Images](#images)
+* [Lists - Ordered, Unordered, Bullets and Nesting](#lists)
 
 ---
 
