@@ -22,18 +22,23 @@
 ### `### Heading 3`
 
 ## Links
-<http://zenajun.com>
-`<http://zenajun.com>` 
 
-[My page](http://zenajun.com)
-`[My page](http://zenajun.com)`
+|Link|Code|Syntax|
+|:---|:---|:-----|
+|<http://zenajun.com>|`<http://zenajun.com>`|`<`*link*`>`|
+|[My page](http://zenajun.com)|`[My page](http://zenajun.com)`|`[`*text*`](`*link*`)`|
+|[My page](http://zenajun.com "My portfolio")|`[My page](http://zenajun.com "My portfolio")`|`[`*text*`](`*link* `"`*title*`")`|
+ 
 
-[My page](http://zenajun.com "My personal portfolio")
-`[My page](http://zenajun.com "My personal portfolio")`
+
+
+
 
 Make sure you check out [Zena's][1] Site.
+`Make sure you check out [Zena's][1] Site.`
 
 [1]: http://zenajun.com
+`[1]: http://zenajun.com`
 
 ## Markdown Images
 
