@@ -33,32 +33,31 @@
 |[My page](http://zenajun.com "My portfolio")|`[My page](http://zenajun.com "My portfolio")`|`[text](link "title")`|
 |Check out [my][1] site.|`Check out [my][1] site`<br><br> *`[1]: http://zenajun.com`<br> |`[text][ref]`| 
 
-**Write these at the bottom of our code to keep your file organized and avoid having long url's in your MD.  It will also make updating links easier.*
+**Write link references at the bottom of our code to keep your file organized and avoid having long url's in your MD.  It will also make updating links easier.*
 
 ## Images
-Syntax: `![`*alt text*`](`*link* `"`*title*`")`
+Syntax: `![alt text](link "title")`
 
-! = image
-
-[] = alt
-
-() = link
-
-"" = title/tooltip
+`![Wow great pick!](http://unsplash.it/500/500?random "cool pic")` becomes:
 
 ![Wow great pick!](http://unsplash.it/500/500?random "cool pic")
 
-`![Wow great pick!](http://unsplash.it/500/500?random "cool pic")`
+
+`![Cute Pup][pup]`<br>
+`[pup]: http://unsplash.it/500/500?image=1012`<br>
+becomes:
+
+Using the link
 
 ![Cute Pup][pup]
-
 [pup]: http://unsplash.it/500/500?image=1012
 
+Thumbnail image
 
+`[![]( http://unsplash.it/50/50?image=1012)]( http://unsplash.it/500/500?image=1012)` becomes
 [![]( http://unsplash.it/50/50?image=1012)]( http://unsplash.it/500/500?image=1012)
 
-Thumbnail image
-`[![]( http://unsplash.it/50/50?image=1012)]( http://unsplash.it/500/500?image=1012)`
+
 
 
 ## Lists - Ordered, unordered, Bullets and Nesting
