@@ -53,9 +53,9 @@ Syntax: `![alt text](link "title")` or `[<img src="">](LINK)`
 
 ### Unordered list
 
-Unordered List: `- `, `+ ` or `* `<br>
-Ordered List: `1. `<br>
-Nesting: `2 spaces` or `tab`
+* Unordered List: `- `, `+ ` or `* `
+* Ordered List: `1. `
+* Nesting: `2 spaces` or `tab`
 
 
 ```
@@ -89,9 +89,9 @@ Nesting: `2 spaces` or `tab`
 
 ## Line Breaks, Horizontal Rules and Block Quotes
 
-Line break: `<br>` or `\`<br>
-Horizontal Rules: `---` or `___`<br>
-Block Quotes: `>`
+* Line break: `<br>` or `\`
+* Horizontal Rules: `---` or `___`
+* Block Quotes: `>`
 
 ```
 The first sentence.<br>
@@ -115,7 +115,9 @@ ___
 
 ## Code Blocks
 
-Syntax: ` ``` `
+* Code blocks: ' ```language '
+* Inline code: ` `code` `
+* Diff: ```diff
 
 
  ` ```html `<br>
