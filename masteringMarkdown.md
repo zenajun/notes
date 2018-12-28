@@ -38,32 +38,16 @@
 **Write link references at the bottom of our code to keep your file organized and avoid having long url's in your MD.  It will also make updating links easier.*
 
 ## Images
-Syntax: `![alt text](link "title")`
 
-`![Wow great pick!](http://unsplash.it/250/250?random "cool pic")` becomes:
+Syntax: `![alt text](link "title")` or `[<img src="">](LINK)`
 
-![Wow great pick!](http://unsplash.it/250/250?random "cool pic")
+|Image|Code|
+|:---:|:---|
+|![Wow great pick!](http://unsplash.it/200/200?random "cool pic")|`![Wow great pick!](http://unsplash.it/200/200?random "cool pic")`|
+|![Cute Pup][pup]|Using the link<br><br>`![Cute Pup][pup]`<br><br>`[pup]: http://unsplash.it/200/200?image=1012`|
+|[![]( http://unsplash.it/50/50?image=1012)]( http://unsplash.it/500/500?image=1012)|Thumbnail image<br><br>`[![]( http://unsplash.it/50/50?image=1012)]( http://unsplash.it/500/500?image=1012)`|
 
-
-### Using the link
-
-`![Cute Pup][pup]`<br>
-`[pup]: http://unsplash.it/250/250?image=1012`<br>
-becomes:
-
-![Cute Pup][pup]
-
-[pup]: http://unsplash.it/250/250?image=1012
-
-### Thumbnail image
-
-`[![]( http://unsplash.it/50/50?image=1012)]( http://unsplash.it/500/500?image=1012)` becomes:<br>
-[![]( http://unsplash.it/50/50?image=1012)]( http://unsplash.it/500/500?image=1012)
-
-
-You can also use `<img>`
-
-`[<img src="http://unsplash.it/50/50?image=1000">](http://unsplash.it/500/500?image=1000)` which is the same thing.
+[pup]: http://unsplash.it/200/200?image=1012
 
 ## Lists - Ordered, Unordered, Bullets and Nesting
 
