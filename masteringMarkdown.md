@@ -43,7 +43,8 @@ Syntax: `![alt text](link "title")`
 ![Wow great pick!](http://unsplash.it/500/500?random "cool pic")
 
 
-Using the link
+### Using the link
+
 `![Cute Pup][pup]`<br>
 `[pup]: http://unsplash.it/500/500?image=1012`<br>
 becomes:
@@ -52,13 +53,15 @@ becomes:
 
 [pup]: http://unsplash.it/500/500?image=1012
 
-Thumbnail image
+### Thumbnail image
 
 `[![]( http://unsplash.it/50/50?image=1012)]( http://unsplash.it/500/500?image=1012)` becomes:<br>
 [![]( http://unsplash.it/50/50?image=1012)]( http://unsplash.it/500/500?image=1012)
 
 
+You can also use the <img>
 
+`[<img src="http://unsplash.it/50/50?image=1000">](http://unsplash.it/500/500?image=1000)` which is the same thing.
 
 ## Lists - Ordered, unordered, Bullets and Nesting
 
