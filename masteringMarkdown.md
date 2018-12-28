@@ -1,8 +1,9 @@
-# Mastermind Markdown
+# Mastering Markdown
 
 * [Paragraphs and Text Decoraction](#paragraphs-and-text-decoration)
 * [Headings](#headings)
 * [Links](#links)
+* [Images](#images)
 
 ## Paragragraphs and Text Decoration
 
@@ -32,9 +33,8 @@
 
 **Write these at the bottom of our code to keep your file organized and avoid having long url's in your MD.  It will also make updating links easier.*
 
-## Markdown Images
-
-`![]()`
+## Images
+Syntax: `![`*alt text*`](`*link* `"`*title*`")`
 
 ! = image
 
