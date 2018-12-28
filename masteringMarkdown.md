@@ -2,17 +2,12 @@
 
 ## Paragragraphs and Text Decoration
 
-Bold
-
-**Bold** `**Bold**`
-
-Italic
-
-_Italic_ `_Italic_`
-
-Strikethrough
-
-~~Strikethrough~~ `~~Strikethrough~~`
+|Text Decoration|Code|
+|:--------------|:---|
+|**Bold**|`**Bold**`|
+|_Italic_| `_Italic_` or `*Italic*`|
+|***Bold and Italic***|`***Bold and Italic***`|
+|~~Strikethrough~~|`~~Strikethrough~~`|
 
 ## Headings
 
