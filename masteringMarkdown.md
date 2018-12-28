@@ -5,6 +5,7 @@
 * [Links](#links)
 * [Images](#images)
 * [Lists - Ordered, Unordered, Bullets and Nesting](#lists---ordered-unordered-bullets-and-nesting)
+* [Line Breaks, Horizontal Rules and Block Quotes](#line-breaks-horizontal-rules-and-block-quotes)
 
 ---
 
@@ -131,12 +132,35 @@ Syntax: `>`
 
 ## Code Blocks
 
-```html
-<ul>
-  <li>item</li>
-  <li>item</li>
-</ul>
+Syntax: ` ``` `
+
+
+ ` ```html `<br>
+ `<ul>`<br>
+ `  <li>item x</li>`<br>
+ `  <li>item y</li>`<br>
+ `</ul>`<br>
+ ` ``` ` 
+ 
+ ```html
+ <ul>
+   <li>item x</li>
+   <li>item y</li>
+ </ul>
+ ```
+
+### Inline code
+
+Syntax: ` ` `
+
 ```
+Hey did you try `const x = 100`?
+```
+
+Hey did you try `const x = 100`?
+
+
+### Difference
 
 ```diff
 var x = 100;
