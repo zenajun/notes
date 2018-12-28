@@ -5,6 +5,8 @@
 * [Links](#links)
 * [Images](#images)
 
+---
+
 ## Paragragraphs and Text Decoration
 
 |Text Decoration|Code|
@@ -26,10 +28,10 @@
 
 |Link|Code|Syntax|
 |:---|:---|:-----|
-|<http://zenajun.com>|`<http://zenajun.com>`|`<`*link*`>`|
-|[My page](http://zenajun.com)|`[My page](http://zenajun.com)`|`[`*text*`](`*link*`)`|
-|[My page](http://zenajun.com "My portfolio")|`[My page](http://zenajun.com "My portfolio")`|`[`*text*`](`*link* `"`*title*`")`|
-|Check out [my][1] site.|`Check out [my][1] site`<br><br> *`[1]: http://zenajun.com`<br> |`[`*text*`][`**ref*`]`| 
+|<http://zenajun.com>|`<http://zenajun.com>`|`<link>`|
+|[My page](http://zenajun.com)|`[My page](http://zenajun.com)`|`[text](link)`|
+|[My page](http://zenajun.com "My portfolio")|`[My page](http://zenajun.com "My portfolio")`|`[text](link "title")`|
+|Check out [my][1] site.|`Check out [my][1] site`<br><br> *`[1]: http://zenajun.com`<br> |`[text][ref]`| 
 
 **Write these at the bottom of our code to keep your file organized and avoid having long url's in your MD.  It will also make updating links easier.*
 
