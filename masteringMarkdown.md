@@ -4,7 +4,7 @@
 * [Headings](#headings)
 * [Links](#links)
 * [Images](#images)
-* [Lists - Ordered, Unordered, Bullets and Nesting](#lists)
+* [Lists - Ordered, Unordered, Bullets and Nesting](#lists---ordered-unordered-bullets-and-nesting)
 
 ---
 
@@ -60,52 +60,74 @@ becomes:
 [![]( http://unsplash.it/50/50?image=1012)]( http://unsplash.it/500/500?image=1012)
 
 
-You can also use the <img>
+You can also use `<img>`
 
 `[<img src="http://unsplash.it/50/50?image=1000">](http://unsplash.it/500/500?image=1000)` which is the same thing.
 
-## Lists - Ordered, unordered, Bullets and Nesting
+## Lists - Ordered, Unordered, Bullets and Nesting
 
-### Groceries:
-- item 1, or
-* item 2, or
+### Unordered list
+
+Syntax: `-`, `+` or `*`
+
+```
+- item 1
+* item 2
++ item 3
+```
+becomes:
+
+- item 1
+* item 2
 + item 3
 
-`- item 1, or`
+### Ordered List
 
-`* item 2, or`
-
-`+ item 3`
-
-### Todo:
-1. first
-1. second
-1. third
-
-```txt
+Sytax: `1.`
+```md
 1. first
 1. second
 1. third
 ```
 
-## Line Breaks, Horizontal Rules and BlockQuotes
+1. first
+1. second
+1. third
 
+## Line Breaks, Horizontal Rules and Block Quotes
+
+### Line Breaks
+
+Syntax: `<br>` or `add a space`
+
+```md
+Zena is cool.<br>
+Hello
+```
 Zena is cool.<br>
 Hello
 
-Or add a space
+### Horizontal rules 
 
-Horizontal rules `===` or `---`
+Syntax: `___` or `---`
 
-===
+---
+
+### Block Quotes
+
+Syntax: `>`
+
+```md
+> You miss 100% of the shots you don't take. - Wayne Gretzky
+>
+> Another line here
+```
 
 > You miss 100% of the shots you don't take. - Wayne Gretzky
 >
 >Another line here
 
-`> You miss 100% of the shots you don't take. - Wayne Gretzky`
-`>`
-`>Another line here`
+
 
 ## Code Blocks
 
