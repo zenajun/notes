@@ -1,5 +1,7 @@
 # Mastermind Markdown
 
+* [Paragraphs and Text Decoraction](#paragraphs-and-text-decoration)
+
 ## Paragragraphs and Text Decoration
 
 |Text Decoration|Code|
