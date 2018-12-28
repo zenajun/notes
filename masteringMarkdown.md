@@ -28,17 +28,9 @@
 |<http://zenajun.com>|`<http://zenajun.com>`|`<`*link*`>`|
 |[My page](http://zenajun.com)|`[My page](http://zenajun.com)`|`[`*text*`](`*link*`)`|
 |[My page](http://zenajun.com "My portfolio")|`[My page](http://zenajun.com "My portfolio")`|`[`*text*`](`*link* `"`*title*`")`|
- 
+|Check out [my][1] site.|`Check out [my][1] site`<br><br> *`[1]: http://zenajun.com`<br> |`[`*text*`][`**ref*`]`| 
 
-
-
-
-
-Make sure you check out [Zena's][1] Site.
-`Make sure you check out [Zena's][1] Site.`
-
-[1]: http://zenajun.com
-`[1]: http://zenajun.com`
+**Write these at the bottom of our code to keep your file organized and avoid having long url's in your MD.  It will also make updating links easier.*
 
 ## Markdown Images
 
