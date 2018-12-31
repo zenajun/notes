@@ -59,7 +59,6 @@ Syntax: `![alt text](link "title")` or `[<img src="">](LINK)`
 * Ordered List: `1. `
 * Nesting: `2 spaces` or `tab`
 
-
 ```
 * item 1
 * item 2
@@ -73,7 +72,6 @@ Syntax: `![alt text](link "title")` or `[<img src="">](LINK)`
 * Two
   * i
   * ii
-
 ```
 
 * item 1
@@ -135,7 +133,7 @@ const x = 100;
 |`:-------`|`:----:`|`--------:`|
 |lorem|ipsum|dolor|
 
-```
+```markdown
 |Dog's name  |Dog's Age|
 |:-----------|:--------|
 |Loki|4|
@@ -156,9 +154,3 @@ const x = 100;
 * [x] Get Milk
 * [ ] Get Eggs
 ```
-
-I had the same problem in #2 
-
-`I had the same problem in #2 `
-
-
