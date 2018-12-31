@@ -115,45 +115,20 @@ ___
 
 ## Code Blocks
 
-* Code blocks: ' ```language '
-* Inline code: ` `code` `
-* Diff: ```diff
-
-
- ` ```html `<br>
- `<ul>`<br>
- `  <li>item x</li>`<br>
- `  <li>item y</li>`<br>
- `</ul>`<br>
- ` ``` ` 
- 
- ```html
- <ul>
-   <li>item x</li>
-   <li>item y</li>
- </ul>
- ```
-
-### Inline code
-
 Syntax: ` ` `
-
-```
-Hey did you try `const x = 100`?
-```
-
-Hey did you try `const x = 100`?
-
+* Code blocks: 3 backticks ` ``` ` and then the language, ` ```html`
+* Inline code: ` `code` `
+* Diff: ` ``diff`
 
 ### Difference
 
-```diff
+` ```diff `, with `+` and `-`
+```
 var x = 100;
 -var y = 200;
 +var y = 300;
 ```
 
-You can write inline with ` `` `
 
 ##  Tables
 
