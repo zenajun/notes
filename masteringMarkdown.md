@@ -1,4 +1,3 @@
-
 ## Code Blocks
 
 * Code blocks: 3 backticks ` ``` ` and then the language, ` ```html`
@@ -7,20 +6,11 @@
 
 ### Difference
 
-` ```diff `, with `+` and `-`
-
-```
-var x = 100;
--var y = 200;
-+var y = 300;
-```
-
 ```diff
-  var x = 100;
-  -var y = 200;
-  +var y = 300;
+const x = 100;
+- const x = 100;
++ const x = 150;
 ```
-
 ##  Tables
 
 Using `|`
