@@ -123,15 +123,17 @@ Syntax: `
 ### Difference
 
 ` ```diff `, with `+` and `-`
+
 ```
 var x = 100;
-- var y = 200;
-+ var y = 300;
+-var y = 200;
++var y = 300;
 ```
+
 ```diff
   var x = 100;
-  - var y = 200;
-  + var y = 300;
+  -var y = 200;
+  +var y = 300;
 ```
 
 ##  Tables
