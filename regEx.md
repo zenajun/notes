@@ -56,6 +56,14 @@
 
 `/[^aeiou]/gi` matches all character that are not vowels.
 
+ Outside of a character set, the `^` is used to search for patterns at the beginning of strings.
+ 
+ `/*Cat/` will only search the beginning of the string
+ 
+`/^Cat/.test('Cat');` returns **true**
+
+`/^Cat/.test('Black Cat');` returns **false**
+
 ## Match Characters that Occur One or More Times with `+`
 
 `'bass.match(/s/ig)'`  returns **'s,s'**
@@ -69,3 +77,21 @@
 `'gut feeling'.match(/go*/);` returns **'g'**
 
 `'over the moon'.match(/go*/)` returns **null**
+
+## Lazy matching
+
+`?`Finds the smallest possible part of the string that satisfies the regex pattern.
+
+Regex is by default greedy (finds the longest possible match)
+
+`'titanic'.match(/t[a-z]i/ig);` returns **titani**
+
+`'titanic'.match(/t[a-z]*i?/ig);` returns **ti**
+
+
+## Match Ending String Patterns with `$`
+
+`/story$/.test('This is a never ending story)` returns **true**
+
+`/story$/.test('Sometimes a story will have to end)` returns **false**
+
