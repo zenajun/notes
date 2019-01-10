@@ -50,7 +50,31 @@
 
 `/[0-5]/g` matches any number between 0 and 5, including the 0 and 5.
 
-### Combine a range of letters and numbers in a single character set, `/[a-e][2-6]/ig`
+Combine a range of letters and numbers in a single character set, `/[a-e][2-6]/ig`
+
+### Match all letters and numbers
+
+`/[A-Za-z0-9_]/` - matches upper and lowercase letters plus numbers including _.
+
+The shorthand for `/[A-Za-z0-9_]/` is `/\w/`
+
+### Match everything but letters and numbers
+
+Longhand: `[^A-Za-z0-9_]`
+
+Shorthand: `\W`
+
+### Match all numbers
+
+Longhand: `[0-9]`
+
+Shorthand: `\d`
+
+### Match all non-numbers
+
+Longhand: `[^0-9]`
+
+Shorthand: `\D`
 
 ### To create a negated character set, you place `^` after the opening bracket and before the characters you do not want to match.
 
