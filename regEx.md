@@ -76,6 +76,11 @@ Longhand: `[^0-9]`
 
 Shorthand: `\D`
 
+### Match Whitespace
+
+`\s` matches **whitespace** including **carriage return**, **tab**, **form feed** and **new line** characters.
+
+
 ### To create a negated character set, you place `^` after the opening bracket and before the characters you do not want to match.
 
 `/[^aeiou]/gi` matches all character that are not vowels.
