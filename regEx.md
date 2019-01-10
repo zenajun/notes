@@ -129,13 +129,30 @@ Regex is by default greedy (finds the longest possible match)
 
 ## Quantify Specifiers
 
-`{}` - Specify the upper and lower number of matches
+`{`*lowerLimit,upperLimit*`}` - Specify the upper and lower number of matches
 
 ```js
 let A4 = "aaaah";
 let A2 = "aah";
+
+
 let multipleA = /a{3,5}h/;
 multipleA.test(A4); // Returns true
 multipleA.test(A2); // Returns false
 ```
 
+`{`*lowerLimit,*`}` specify a lower limit with no upper limit.
+
+`{`*exactNumber*`}` specify an exact number of matches.
+
+## Check for All or None
+
+`?` - checks for the possible existence of an element. This cheks for zero or one of the preceding element. You can think of this symbol as saying the previosu element is optional. 
+
+## Lookaheads
+
+Look-ahead in your string to check for patterns further along.
+
+Positive lookahead, `(?=...)` will look to make sure the element in the search pattern is there, but won't actually match it.
+
+Negative lookahead, `(?!=...)` will look to make sure the elemetn in the search pattern is not there.
