@@ -80,6 +80,9 @@ Shorthand: `\D`
 
 `\s` matches **whitespace** including **carriage return**, **tab**, **form feed** and **new line** characters.
 
+### Match Non-Whitespace
+`\S`
+
 
 ### To create a negated character set, you place `^` after the opening bracket and before the characters you do not want to match.
 
@@ -123,4 +126,16 @@ Regex is by default greedy (finds the longest possible match)
 `/story$/.test('This is a never ending story)` returns **true**
 
 `/story$/.test('Sometimes a story will have to end)` returns **false**
+
+## Quantify Specifiers
+
+`{}` - Specify the upper and lower number of matches
+
+```js
+let A4 = "aaaah";
+let A2 = "aah";
+let multipleA = /a{3,5}h/;
+multipleA.test(A4); // Returns true
+multipleA.test(A2); // Returns false
+```
 
